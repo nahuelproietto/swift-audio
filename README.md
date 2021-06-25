@@ -13,6 +13,10 @@ See documentation: https://www.w3.org/TR/webaudio/
 
 This specification describes a high-level Web API for processing and synthesizing audio in web applications. The primary paradigm is of an audio routing graph, where a number of AudioNode objects are connected together to define the overall audio rendering. The actual processing will primarily take place in the underlying implementation (typically optimized Assembly / C / C++ code), but direct script processing and synthesis is also supported.
 
+#### Usage
+
+`$ swift package generate-xcodeproj --xcconfig-overrides Xcode.xcconfig`
+
 #### Backend
 
 We are using miniaudio to support multi-platform audio (not-fully tested yet)
