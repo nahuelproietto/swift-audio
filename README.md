@@ -15,7 +15,7 @@ This specification describes a high-level Web API for processing and synthesizin
 
 #### Backend
 
-We are using miniaudio to support multi-platform in other environment (not-fully tested yet)
+We are using miniaudio to support multi-platform audio (not-fully tested yet)
 
 Online documentation can be found here: https://miniaud.io/docs/
 Documentation can also be found at the top of miniaudio.h which is always the most up-to-date and authoritive source of information on how to use miniaudio. All other documentation is generated from this in-code documentation.
