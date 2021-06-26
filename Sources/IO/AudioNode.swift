@@ -34,7 +34,7 @@ open class AudioNode: NSObject {
     public internal(set) var numberOfInputs: Int = 0
     public internal(set) var numberOfOutputs: Int = 0
     public internal(set) var channelCount: Int = 0
-    public internal(set) var channelCountMode: ChannelCountMode = .clampedMax
+    public internal(set) var channelCountMode: ChannelCountMode = .max
     public internal(set) var channelIntepretation: ChannelInterpretation = .speakers
     
     public private(set) var isInitialized: Bool = false
